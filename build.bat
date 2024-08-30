@@ -1,0 +1,1 @@
+start docker build --tag sf-oidc-keycloak:1.0.0

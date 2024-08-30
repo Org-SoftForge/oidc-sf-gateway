@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  pg:
+    image: postgres:14.11-alpine3.19
+    container_name: sf-oidc-pg
+    ports:
+      - ${POSTGRES_EXPOSED_PORT}:5432
+    env_file:
+      - env/pg.env
+    volumes:
+      - type: volume
+        source: sf-oidc-pg-vol
+        target: /data
+    networks:
+      - sf-oidc-pg-net
+  keycloak:
+    build:
+      dockerfile: Dockerfile-dev
+    image: sf-oidc-keycloak:1.0.0
+    ports:
+      - ${KEYCLOAK_EXPOSED_PORT}:8080
+    env_file: env/keycloak.env
+    networks:
+      - sf-oidc-pg-net
+    depends_on:
+      - pg
+
+networks:
+  sf-oidc-pg-net:
+volumes:
+  sf-oidc-pg-vol:
