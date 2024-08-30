@@ -1,0 +1,1 @@
+start docker-compose -f docker-compose.yml --env-file env/pg.env --env-file env/keycloak.env up
