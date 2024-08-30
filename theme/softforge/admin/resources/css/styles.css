@@ -1,0 +1,498 @@
+.pf-v5-c-masthead {
+    --pf-v5-c-masthead--BackgroundColor: #121015;
+    --pf-v5-c-page__header--BackgroundColor: #121015;
+}
+
+.pf-v5-c-masthead .pf-v5-c-toolbar {
+    --pf-v5-c-toolbar--BackgroundColor: #121015;
+}
+
+:root {
+    --pf-v5-c-page__sidebar--BackgroundColor: #e3e5e0;
+    --pf-v5-c-page__main-section--m-light--BackgroundColor: #e3e5e0;
+    --pf-v5-c-page__main-breadcrumb--BackgroundColor: #e3e5e0;
+}
+
+.pf-v5-c-menu-toggle {
+    --pf-v5-c-menu-toggle--BackgroundColor: #525250;
+    --pf-v5-c-menu-toggle--after--BorderBottomColor: #d23525;
+}
+
+.pf-v5-c-menu-toggle:hover {
+    --pf-v5-c-menu-toggle--after--BorderBottomColor: #671c12;
+    --pf-v5-c-menu-toggle--m-plain--Color: #36373aff !important;
+}
+
+.pf-v5-c-menu-toggle.pf-m-expanded {
+    --pf-v5-c-menu-toggle--after--BorderBottomColor: #671c12;
+}
+
+.pf-v5-c-menu-toggle:focus, .pf-v5-c-menu-toggle:focus-within {
+    --pf-v5-c-menu-toggle--after--BorderBottomColor: #671c12;
+}
+
+.pf-v5-c-menu {
+    --pf-v5-c-menu--BackgroundColor: #282727;
+}
+
+.pf-v5-c-nav__link {
+    --pf-v5-c-nav__link--Color: #121015;
+}
+
+.pf-m-current {
+    --pf-v5-c-nav__link--m-current--BackgroundColor: #121015;
+}
+
+.pf-v5-c-form__label-text {
+    color: #121015;
+}
+
+.pf-v5-c-content {
+    --pf-v5-c-content--Color: #121015;
+}
+
+.pf-v5-c-nav__link.pf-m-current {
+    --pf-v5-c-nav__link--m-current--BackgroundColor: #525250;
+}
+
+.pf-v5-c-tabs__list {
+    --pf-v5-c-tabs__link--BackgroundColor: #e3e5e0;
+}
+
+.pf-v5-c-tabs__list a {
+    --pf-v5-c-tabs__link--BackgroundColor: transparent;
+}
+
+.pf-v5-c-tabs__item {
+    --pf-v5-c-tabs__link--before--BorderRightWidth: 0;
+}
+
+.pf-v5-c-tabs__link {
+    --pf-v5-c-tabs__link--Color: #121015;
+}
+
+.pf-v5-c-toolbar {
+    --pf-v5-c-toolbar--BackgroundColor: #e3e5e0;
+}
+
+.pf-v5-c-switch__label {
+    --pf-v5-c-switch__input--checked__label--Color: #121015;
+}
+
+.pf-v5-c-switch__toggle::before {
+    --pf-v5-c-switch__toggle--before--BackgroundColor: #e3e5e0;
+}
+
+.pf-v5-c-switch__toggle {
+    --pf-v5-c-switch__input--checked__toggle--BackgroundColor: #d23525;
+}
+
+.pf-v5-c-tabs__item.pf-m-action::after, .pf-v5-c-tabs__link::after {
+    --pf-v5-c-tabs__link--after--BorderColor: #d23525;
+}
+
+.pf-v5-c-tabs.pf-m-box .pf-v5-c-tabs__item.pf-m-current {
+    --pf-v5-c-tabs__link--BackgroundColor: transparent !important;
+}
+
+.pf-v5-c-tabs.pf-m-box .pf-v5-c-tabs__item.pf-m-current:first-child .pf-v5-c-tabs__link::before {
+    border-inline-start-width: 0 !important;
+}
+
+
+.pf-v5-c-tabs.pf-m-box .pf-v5-c-tabs__item.pf-m-current:last-child .pf-v5-c-tabs__link::before {
+    border-inline-start-width: 0 !important;
+}
+
+.pf-v5-c-nav__link.pf-m-current::after, .pf-v5-c-nav__link.pf-m-current:hover::after, .pf-v5-c-nav__item.pf-m-current:not(.pf-m-expanded) .pf-v5-c-nav__link::after {
+    border-color: #d23525;
+}
+
+.pf-v5-u-ml-md {
+    --pf-v5-c-content--a--Color: #d23525;
+}
+
+.pf-v5-u-ml-md:hover {
+    --pf-v5-c-content--a--Color: #671c12;
+}
+
+.pf-v5-c-button {
+    --pf-v5-c-button--m-link--Color: #d23525;
+}
+
+.pf-v5-c-button:hover {
+    --pf-v5-c-button--m-link--Color: #671c12 !important;
+}
+
+.pf-v5-c-button.pf-m-primary {
+    --pf-v5-c-button--m-primary--BackgroundColor: #d23525;
+    --pf-v5-c-button--m-primary--Color: #e3e5e0;
+}
+
+.pf-v5-c-button.pf-m-primary:hover {
+    --pf-v5-c-button--m-primary--BackgroundColor: #671c12;
+}
+
+.pf-v5-c-menu__item-select-icon {
+    --pf-v5-c-menu__item-select-icon--Color: #d23525;
+}
+
+.pf-v5-c-content a:hover {
+    --pf-v5-c-content--a--Color: #671c12 !important;
+    --pf-v5-c-content--a--TextDecoration: #671c12 !important;
+}
+
+.pf-v5-c-form-control {
+    --pf-v5-c-form-control--after--BorderBottomColor: #d23525;
+}
+
+.pf-v5-c-form-control:hover {
+    --pf-v5-c-form-control--after--BorderBottomColor: #671c12 !important;
+    background-color: #36373aff !important;
+}
+
+.pf-v5-c-form-control {
+    background-color: #525250 !important;
+}
+
+.pf-v5-c-form-control:focus-within {
+    --pf-v5-c-form-control--after--BorderBottomColor: #671c12 !important;
+}
+
+.pf-v5-c-button.pf-m-control {
+    --pf-v5-c-button--m-control--BackgroundColor: #525250 !important;
+}
+
+.pf-v5-c-button.pf-m-control:hover {
+    --pf-v5-c-button--m-control--BackgroundColor: #36373aff !important;
+}
+
+.pf-v5-c-button.pf-m-control::after {
+    border-bottom-color: #d23525 !important;
+}
+
+.pf-v5-c-button.pf-m-control:hover::after {
+    border-bottom-color: #671c12 !important;
+}
+
+.pf-v5-c-empty-state__body {
+    --pf-v5-c-empty-state__body--Color: #121015 !important;
+}
+
+.pf-v5-l-stack__item > a {
+    color: #d23525 !important;
+}
+
+.pf-v5-l-stack__item > a:hover {
+    color: #671c12 !important;
+}
+
+.pf-v5-c-card {
+    --pf-v5-c-card--BackgroundColor: #e3e5e0 !important;
+}
+
+.pf-v5-c-title {
+    color: #121015 !important;
+}
+
+.pf-v5-c-check__input {
+    accent-color: #d23525 !important;
+}
+
+.pf-v5-c-text-input-group {
+    --pf-v5-c-text-input-group--BackgroundColor: #525250 !important;
+}
+
+.pf-v5-c-text-input-group:hover {
+    --pf-v5-c-text-input-group--BackgroundColor: #36373aff !important;
+}
+
+.pf-v5-c-text-input-group__text:after {
+    --pf-v5-c-text-input-group__text--after--BorderBottomColor: #d23525 !important;
+}
+
+.pf-v5-c-text-input-group .pf-v5-c-text-input-group__text:after {
+    --pf-v5-c-text-input-group__text--after--BorderBottomColor: #671c12 !important;
+}
+
+.pf-v5-c-tabs__link {
+    background-color: transparent;
+}
+
+.pf-v5-c-table {
+    --pf-v5-c-table--BackgroundColor: #e3e5e0 !important;
+}
+
+.pf-v5-c-table__th, .pf-v5-c-table__td {
+    color: #121015 !important;
+}
+
+.pf-v5-c-button.pf-m-secondary {
+    --pf-v5-c-button--m-secondary--BackgroundColor: #d23525 !important;
+    --pf-v5-c-button--m-secondary--Color: #e3e5e0 !important;
+}
+
+.pf-v5-c-button.pf-m-secondary:hover {
+    --pf-v5-c-button--m-secondary--BackgroundColor: #671c12 !important;
+}
+
+.pf-v5-c-button.pf-m-secondary:after {
+    --pf-v5-c-button--m-secondary--BackgroundColor: #525250 !important;
+    --pf-v5-c-button--m-secondary--Color: #d23525 !important;
+}
+
+.pf-v5-c-button.pf-m-secondary:after {
+    --pf-v5-c-button--after--BorderColor: transparent !important;
+}
+
+.pf-v5-c-pagination.pf-m-bottom {
+    --pf-v5-c-pagination--m-bottom--BackgroundColor: #e3e5e0 !important;
+}
+
+.pf-v5-c-menu-toggle {
+    --pf-v5-c-menu-toggle--Color: #121015 !important;
+}
+
+.pf-v5-c-menu-toggle__toggle-icon {
+    --pf-v5-c-menu-toggle__toggle-icon--Color: #121015 !important;
+}
+
+.pf-v5-c-tabs__link {
+    --pf-v5-c-tabs__link--BackgroundColor: transparent !important;
+}
+
+.pf-v5-c-table__td a {
+    --pf-v5-global--link--Color: #121015 !important;
+}
+
+.pf-v5-c-switch__input:not(:checked) ~ .pf-v5-c-switch__label {
+    --pf-v5-c-switch__input--not-checked__label--Color: #121015 !important;
+}
+
+.pf-v5-c-menu-toggle.pf-m-plain:not(.pf-m-text) {
+    --pf-v5-c-menu-toggle--m-plain--Color: #525250 !important;
+}
+
+.pf-v5-c-menu-toggle.pf-m-plain:not(.pf-m-text):hover {
+    --pf-v5-c-menu-toggle--m-plain--Color: #36373aff !important;
+}
+
+.pf-v5-c-empty-state__title-text {
+    color: #121015 !important;
+}
+
+.kc-dropdown-panel {
+    background-color: #525250 !important;
+    border-bottom-color: #d23525 !important;
+}
+
+.kc-dropdown-panel:hover {
+    background-color: #36373aff !important;
+    border-bottom-color: #671c12 !important;
+}
+
+.kc-dropdown-panel-content .pf-v5-c-form__label-text {
+    color: #e3e5e0;
+}
+
+.kc-dropdown-panel-content .pf-v5-c-menu-toggle__text {
+    color: #e3e5e0;
+}
+
+.pf-v5-c-radio__input {
+    accent-color: #d23525;
+}
+
+.pf-v5-c-radio__label {
+    --pf-v5-c-radio__label--Color: #121015 !important;
+}
+
+.pf-v5-c-label.pf-m-blue {
+    --pf-v5-c-label--m-blue--BackgroundColor: #525250 !important;
+}
+
+.pf-v5-c-label__content {
+    color: #d23525 !important;
+}
+
+.pf-v5-c-breadcrumb__item span {
+    color: #121015 !important;
+}
+
+.kc-attributeCancel {
+    --pf-v5-global--link--Color: #d23525 !important;
+}
+
+.kc-attributeCancel:hover {
+    --pf-v5-global--link--Color: #671c12 !important;
+}
+
+.pf-v5-c-modal-box__title-text {
+    color: #121015;
+}
+
+.pf-v5-c-modal-box {
+    --pf-v5-c-modal-box--BackgroundColor: #e3e5e0 !important;
+}
+
+.pf-v5-c-modal-box__close .pf-v5-svg {
+    --pf-v5-c-button--m-plain--Color: #d23525 !important;
+}
+
+.pf-v5-c-modal-box__close:hover .pf-v5-svg {
+    --pf-v5-c-button--m-plain--Color: #671c12 !important;
+}
+
+.pf-v5-c-jump-links__label {
+    color: #121015;
+}
+
+.pf-v5-c-jump-links__item.pf-m-current .pf-v5-c-jump-links__link-text {
+    --pf-v5-c-jump-links__link-text--Color: #671c12 !important;
+}
+
+.pf-v5-c-jump-links__item .pf-v5-c-jump-links__link-text {
+    --pf-v5-c-jump-links__link-text--Color: #d23525 !important;
+}
+
+.pf-v5-c-jump-links__item .pf-v5-c-jump-links__link-text:hover {
+    --pf-v5-c-jump-links__link-text--Color: #671c12 !important;
+}
+
+.pf-v5-c-jump-links__link::before {
+    --pf-v5-c-jump-links__link--before--BorderColor: #d23525 !important;
+}
+
+.pf-v5-c-button.pf-m-link:not(.pf-m-inline):focus {
+    --pf-v5-c-button--m-link--Color: #671c12 !important;
+}
+
+.pf-v5-c-table__check input {
+    accent-color: #d23525;
+}
+
+.keycloak__section_intro__help {
+    color: #d23525 !important;
+}
+
+.pf-v5-c-popover__content a {
+    color: #d23525 !important;
+}
+
+.pf-v5-c-popover__content a:hover {
+    color: #671c12 !important;
+}
+
+.pf-v5-u-font-weight-light {
+    --pf-v5-global--link--Color: #d23525 !important;
+}
+
+.pf-v5-u-font-weight-light:hover {
+    --pf-v5-global--link--Color: #671c12 !important;
+}
+
+.pf-v5-c-check__label {
+    --pf-v5-c-check__label--Color: #121015 !important;
+}
+
+.pf-v5-c-button.pf-m-plain {
+    --pf-v5-c-button--m-plain--Color: #525250 !important;
+}
+
+.pf-v5-c-button.pf-m-plain:hover {
+    --pf-v5-c-button--m-plain--Color: #36373aff !important;
+}
+
+.pf-v5-c-page__main-section {
+    --pf-v5-c-page__main-section--BackgroundColor: #e3e5e0 !important;
+}
+
+.pf-v5-c-icon__content {
+    --pf-v5-c-icon__content--Color: #121015 !important;
+}
+
+.pf-v5-l-split__item.pf-m-fill {
+    color: #121015 !important;
+}
+
+.pf-v5-c-content a {
+    --pf-v5-c-content--a--Color: #d23525 !important;
+}
+
+.pf-v5-c-content a:hover {
+    --pf-v5-c-content--a--Color: #671c12 !important;
+}
+
+.pf-v5-c-tabs.pf-m-box .pf-v5-c-tabs__item.pf-m-current:last-child .pf-v5-c-tabs__link::before {
+    --pf-v5-c-tabs--m-box__item--m-current--last-child__link--before--BorderRightWidth: 0 !important;
+}
+
+.pf-v5-c-drawer__panel {
+    --pf-v5-c-drawer__panel--BackgroundColor: #e3e5e0 !important;
+}
+
+.pf-v5-c-drawer__splitter::after {
+    --pf-v5-c-drawer__splitter--after--BorderTopWidth: 1px;
+    --pf-v5-c-drawer__splitter--after--BorderBottomWidth: 1px;
+}
+
+.pf-v5-u-pl-sm {
+    color: #121015;
+}
+
+.pf-v5-c-input-group__item {
+    --pf-v5-c-input-group__item--BorderLeftWidth: 0 !important;
+}
+
+.pf-v5-c-drawer__content {
+    --pf-v5-c-drawer__content--BackgroundColor: #e3e5e0 !important;
+}
+
+.pf-v5-c-wizard__nav {
+    --pf-v5-c-wizard__nav--BackgroundColor: #e3e5e0 !important;
+}
+
+.pf-v5-c-wizard__outer-wrap {
+    --pf-v5-c-wizard__outer-wrap--BackgroundColor: #e3e5e0 !important;
+}
+
+.pf-v5-c-wizard__nav-link.pf-m-current::before {
+    --pf-v5-c-wizard__nav-link--before--BackgroundColor: #d23525 !important;
+}
+
+.pf-v5-c-wizard__nav-link {
+    --pf-v5-c-wizard__nav-link--Color: #121015 !important;
+}
+
+.pf-v5-c-wizard__nav-link:hover {
+    --pf-v5-c-wizard__nav-link--Color: #d23525 !important;
+}
+
+.pf-v5-c-wizard__nav-link.pf-m-current {
+    --pf-v5-c-wizard__nav-link--Color: #671c12 !important;
+}
+
+.pf-v5-c-data-list__item {
+    --pf-v5-c-data-list__item--BackgroundColor: #e3e5e0 !important;
+    --pf-v5-c-data-list__item--BorderBottomColor: #d23525 !important;
+}
+
+.pf-v5-c-data-list__item:hover {
+    --pf-v5-c-data-list__item--BorderBottomColor: #671c12 !important;
+}
+
+.pf-v5-c-wizard__footer {
+    --pf-v5-c-wizard__footer--BackgroundColor: #e3e5e0 !important;
+}
+
+.pf-v5-c-data-list__cell {
+    color: #121015 !important;
+}
+
+.pf-v5-c-nav__section-title {
+    --pf-v5-c-nav__section-title--Color: #121015 !important;
+}
+
+.pf-v5-c-menu-toggle {
+    --pf-v5-c-menu-toggle--Color: #e3e5e0 !important;
+}
