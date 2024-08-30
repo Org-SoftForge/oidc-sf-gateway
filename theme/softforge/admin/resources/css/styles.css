@@ -496,3 +496,7 @@
 .pf-v5-c-menu-toggle {
     --pf-v5-c-menu-toggle--Color: #e3e5e0 !important;
 }
+
+.keycloak__realm_selector__dropdown .pf-v5-l-split__item.pf-m-fill{
+    color: #e3e5e0 !important;
+}
